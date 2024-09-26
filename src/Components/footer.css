@@ -1,0 +1,11 @@
+#footerContainer {
+    padding-right: 2%;
+    height: 71px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+#footerContainer span {
+    font-size: 12px;
+}

@@ -1,0 +1,145 @@
+/*Landing*/
+#landingPicContainer {
+    position: relative;
+}
+
+#landingPic {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: 0 40%;
+}
+
+#landingText1 {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    font-size: 24px;
+    line-height: 54.5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    opacity: 0;
+    box-shadow: 0 4px 4px rgb(0,0,0,0.5);
+}
+
+#landingText2 {
+    position: absolute;
+    top: 45%;
+    left: 10%;
+    font-size: 24px;
+    line-height: 54.5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    opacity: 0;
+    box-shadow: 0 4px 4px rgb(0,0,0,0.5);
+}
+#landingText3 {
+    position: absolute;
+    bottom: 15%;
+    right: 0px;
+    font-size: 48px;
+    height: 80px;
+    width: 420px;
+    opacity: 0;
+    border: none;
+    box-shadow: 0 4px 4px rgb(0,0,0,0.5);
+    padding: 0 !important;
+    margin: 0 !important;
+    background-image: linear-gradient(to left, #1F2D57, #6FE0E7);
+}
+#landingText3:hover {
+    background-image: linear-gradient(to left, #D3D4D7, #1A1B21);
+    color: #1F2D57 !important;
+    opacity: 1 !important;
+    font-weight: bold;
+}
+
+.linkStyle {
+    position: absolute;
+    bottom: 15%;
+    right: 0px;
+    font-size: inherit;
+    height: inherit;
+    width: inherit;
+    border: inherit;
+    padding: inherit;
+}
+
+#landingSNSIconContainer {
+    width: 100vw;
+    height: 20vh;
+    margin-top: -5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#landingSNSIconContainer2 {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.SNSIcon {
+    width: 63px;
+    height: 63px;
+}
+
+/*Animation*/
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+@keyframes fadeIn80 {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 0.8;
+    }
+}
+
+/*Responsive*/
+@media only screen and (max-width: 600px) {
+    #landingPic {
+        width: 600px;
+        height: 100vh;
+        object-fit: cover;
+        object-position: 50% 40%;
+    }
+
+    #landingText1 {
+        top: 5%;
+        left: 5%;
+    }
+    
+    #landingText2 {
+        top: 10%;
+        left: 10%;
+    }
+    #landingText3 {
+        position: absolute;
+        bottom: 15%;
+        right: 0px;
+        font-size: 48px;
+        height: 80px;
+        width: 420px;
+        opacity: 0;
+        border: none;
+        box-shadow: 0 4px 4px rgb(0,0,0,0.5);
+        padding: 0 !important;
+        margin: 0 !important;
+        background-image: linear-gradient(to left, #1F2D57, #6FE0E7);
+    }
+    #landingText3:hover {
+        background-image: linear-gradient(to left, #D3D4D7, #1A1B21);
+        color: #1F2D57 !important;
+        opacity: 1 !important;
+        font-weight: bold;
+    }
+} 

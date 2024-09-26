@@ -1,0 +1,99 @@
+#sectionContainer {
+    display: flex;
+}
+
+#imageContainer {
+    object-fit: cover;
+    width: 1030px;
+    height: 100vh;
+}
+
+#expand {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+}
+
+#infoContainer {
+    padding-left: 5%;
+    padding-top: 6%;
+    width: 20%;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+.infoText {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+#xmark {
+    position: absolute;
+    right: 2%;
+    top: 2%;
+    height: 41px;
+    width: 37px;
+}
+
+#leftArrow {
+    position: absolute;
+    right: 7%;
+    bottom: 2%;
+    height: 41px;
+}
+
+#rightArrow {
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+    height: 41px;
+}
+
+.waistUp {
+    object-position: 0 10%;
+}
+
+.fullBody {
+    object-position: 0 25%;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 600px) {
+    #sectionContainer {
+        display: block;
+    }
+    
+    #imageContainer {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    #infoContainer {
+        padding-left: 7%;
+        padding-top: 2%;
+        width: 60%;
+    }
+
+    #leftArrow {
+        position: absolute;
+        right: 20%;
+        bottom: 2%;
+        height: 41px;
+    }
+    
+    #rightArrow {
+        position: absolute;
+        right: 6%;
+        bottom: 2%;
+        height: 41px;
+    }
+
+    .illustration {
+        object-position: 65% 0;
+    }
+}

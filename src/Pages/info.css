@@ -1,0 +1,531 @@
+html {
+    scroll-behavior: smooth;
+}
+
+/*section1*/
+#infoSectionContainer {
+    height: 70vh;
+    width: 100vw;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.infoH1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+#titleLine {
+    width: 91px;
+    height: 11px;
+    margin-top: -15px;
+}
+
+#flowContainer {
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.line {
+    position: absolute;
+    height: 6px;
+    /* Thickness of the line */
+    width: 150px;
+    /* Length of the dotted line */
+    transform: translate(-50%, -50%);
+    /* Center the line */
+    top: 44%;
+}
+
+#line1 {
+    left: 38%;
+    /* Start from the center of the first circle */
+}
+
+#line2 {
+    left: 51.5%;
+    /* Start from the center of the first circle */
+}
+
+#line3 {
+    left: 64.5%;
+    /* Start from the center of the first circle */
+}
+
+.lineInfo {
+    position: absolute;
+    top: 42.5%;
+}
+
+.lineInfo1 {
+    left: 32.5%;
+}
+
+.lineInfo2 {
+    left: 59%;
+}
+
+p {
+    width: 200px;
+}
+
+.flowTextTitle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.flowTextPara {
+    font-size: 16px;
+    margin: 0px;
+    text-align: left;
+}
+
+/*section2*/
+#authContainer {
+    width: 1000px;
+    margin-top: 80px !important;
+    display: grid;
+    margin: 0 auto;
+    max-width: 760px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    grid-gap: 20px;
+}
+
+.authTitle {
+    position: absolute;
+    font-size: 32px;
+    background-color: white;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #4D84B8;
+    font-weight: 500;
+}
+
+.authInfo {
+    position: absolute;
+    font-size: 18px;
+    width: 258px;
+    text-align: left;
+}
+
+.authTitle1 {
+    top: 104%;
+    left: 38.5%;
+}
+
+.authInfo1-1 {
+    top: 116.5%;
+    left: 36%;
+}
+
+.authInfo1-2 {
+    top: 119.5%;
+    left: 36%;
+}
+
+.authTitle2 {
+    top: 104%;
+    left: 57%;
+}
+
+.authInfo2 {
+    top: 114%;
+    left: 55.5%;
+}
+
+.authTitle3 {
+    top: 134%;
+    left: 36.5%;
+}
+
+.authInfo3-1 {
+    top: 143%;
+    left: 35%;
+}
+
+.authInfo3-2 {
+    top: 146%;
+    left: 35%;
+}
+
+.authInfo3-3 {
+    top: 149%;
+    left: 35%;
+}
+
+.authInfo3-4 {
+    top: 152%;
+    left: 35%;
+}
+
+.authTitle4 {
+    top: 134%;
+    left: 57%;
+}
+
+.authInfo4-1 {
+    top: 144.5%;
+    left: 56%;
+}
+
+.authInfo4-2 {
+    top: 147.5%;
+    left: 56%;
+}
+
+.authInfo4-3 {
+    top: 150.5%;
+    left: 56%;
+}
+
+.authInfo4-4 {
+    top: 153.5%;
+    left: 56%;
+}
+
+/*section3*/
+#drawContainer {
+    width: 1205px;
+    display: grid;
+    margin-top: 80px !important;
+    margin: 0 auto;
+    max-width: 1205px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    grid-gap: 20px;
+}
+
+.drawTitle {
+    position: absolute;
+    font-size: 32px;
+    background-color: white;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #4D84B8;
+    font-weight: 500;
+}
+
+.drawInfo {
+    position: absolute;
+    font-size: 18px;
+    width: 258px;
+    text-align: left;
+}
+
+.drawTitle1 {
+    top: 197%;
+    left: 25.5%;
+}
+
+.drawInfo1-1 {
+    top: 207%;
+    left: 24%;
+}
+
+.drawInfo1-2 {
+    top: 210%;
+    left: 24%;
+}
+
+.drawInfo1-3 {
+    top: 213%;
+    left: 24%;
+}
+
+.drawInfo1-4 {
+    top: 216%;
+    left: 24%;
+}
+
+.drawTitle2 {
+    top: 197%;
+    left: 45.5%;
+}
+
+.drawInfo2 {
+    top: 212%;
+    left: 45%;
+}
+
+.drawTitle3 {
+    top: 197%;
+    left: 66%;
+}
+
+.drawInfo3-1 {
+    top: 208%;
+    left: 67.5%;
+}
+
+.drawInfo3-2 {
+    top: 211%;
+    left: 67.5%;
+}
+
+.drawInfo3-3 {
+    top: 214%;
+    left: 67.5%;
+}
+
+/*section4*/
+#payContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px !important;
+}
+
+#payContainer div svg {
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
+.payTitle {
+    font-size: 30px;
+    width: auto;
+    color: #4D84B8;
+    position: absolute;
+}
+
+.payTitle1 {
+    top: 274%;
+    left: 47%;
+}
+
+.payTitle2 {
+    top: 286.5%;
+    left: 47%;
+}
+
+.payTitle3 {
+    top: 298.5%;
+    left: 47%;
+}
+
+/*Responsive*/
+@media only screen and (max-width: 600px) {
+
+    /*section1*/
+    #infoSectionContainer {
+        padding: 0px;
+        height: auto;
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+
+    #flowContainer {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        height: auto;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .lineInfo {
+        display: none;
+    }
+
+    .flowText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .flowTextPara {
+        width: 85vw;
+    }
+
+    /*section2*/
+    #authContainer {
+        width: 95vw;
+        margin-top: 80px !important;
+        max-width: 95vw;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .authTitle1 {
+        top: 151.5%;
+        left: 42%;
+    }
+
+    .authInfo1-1 {
+        top: 163%;
+        left: 35%;
+    }
+
+    .authInfo1-2 {
+        top: 166%;
+        left: 35%;
+    }
+
+    .authTitle2 {
+        top: 180.5%;
+        left: 38%;
+    }
+
+    .authInfo2 {
+        top: 191%;
+        left: 30%;
+    }
+
+    .authTitle3 {
+        top: 209%;
+        left: 36.5%;
+    }
+
+    .authInfo3-1 {
+        top: 218%;
+        left: 31%;
+    }
+
+    .authInfo3-2 {
+        top: 221%;
+        left: 31%;
+    }
+
+    .authInfo3-3 {
+        top: 224%;
+        left: 31%;
+    }
+
+    .authInfo3-4 {
+        top: 227%;
+        left: 31%;
+    }
+
+    .authTitle4 {
+        top: 238%;
+        left: 36.5%;
+    }
+
+    .authInfo4-1 {
+        top: 248%;
+        left: 33%;
+    }
+
+    .authInfo4-2 {
+        top: 251%;
+        left: 33%;
+    }
+
+    .authInfo4-3 {
+        top: 254%;
+        left: 33%;
+    }
+
+    .authInfo4-4 {
+        top: 257%;
+        left: 33%;
+    }
+
+    /*section3*/
+    #drawContainer {
+        width: 90vw;
+        max-width: 90vw;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .drawTitle1 {
+        top: 289%;
+        left: 36%;
+    }
+
+    .drawInfo1-1 {
+        top: 299%;
+        left: 30%;
+    }
+
+    .drawInfo1-2 {
+        top: 302%;
+        left: 30%;
+    }
+
+    .drawInfo1-3 {
+        top: 305%;
+        left: 30%;
+    }
+
+    .drawInfo1-4 {
+        top: 308%;
+        left: 30%;
+    }
+
+    .drawTitle2 {
+        top: 318%;
+        left: 33%;
+    }
+
+    .drawInfo2 {
+        top: 332%;
+        left: 30%;
+    }
+
+    .drawTitle3 {
+        top: 347%;
+        left: 30%;
+        width: auto;
+    }
+
+    .drawInfo3-1 {
+        top: 358%;
+        left: 32%;
+    }
+
+    .drawInfo3-2 {
+        top: 361%;
+        left: 32%;
+    }
+
+    .drawInfo3-3 {
+        top: 364%;
+        left: 32%;
+    }
+
+    /*section4*/
+
+    #payContainer div svg {
+        margin-left: 20px;
+        margin-bottom: 25px;
+    }
+
+    .payTitle {
+        font-size: 30px;
+        width: auto;
+        color: #4D84B8;
+        position: absolute;
+    }
+
+    .payTitle1 {
+        top: 401.5%;
+        left: 35%;
+    }
+
+    .payTitle2 {
+        top: 414%;
+        left: 35%;
+    }
+
+    .payTitle3 {
+        top: 426%;
+        left: 35%;
+    }
+}
