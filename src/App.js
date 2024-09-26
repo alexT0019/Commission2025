@@ -10,11 +10,25 @@ import Illustration from './Pages/illustration';
 import ItemList from './Pages/itemList';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-// import { library } from '@fortawesome/fontawesome-svg-core';
-// import { fab } from '@fortawesome/free-brands-svg-icons';
-// import { faPixiv } from '@fortawesome/free-solid-svg-icons';
+//cors
+const express = require('express');
+const cors = require('cors');
 
-// library.add(fab, faPixiv);
+const app = express();
+
+// Enable CORS for all routes
+app.use(cors());
+
+// Or enable CORS for specific origins
+// app.use(cors({ origin: 'https://example.com' }));
+
+app.get('/api/data', (req, res) => {
+    res.json({ message: 'Hello, CORS!' });
+});
+
+app.listen(3000, () => {
+    console.log('Server running on port 3000');
+});
 
 function App() {
   return (
