@@ -10,6 +10,17 @@ import Illustration from './Pages/illustration';
 import ItemList from './Pages/itemList';
 import { Routes, Route } from "react-router-dom";
 
+const express = require('express');
+
+const app = express();
+
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", "*"); // Allow all origins
+  res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
+  res.header("Access-Control-Allow-Headers", "Content-Type, Authorization");
+  next();
+});
+
 function App() {
   return (
     <div className="App">
