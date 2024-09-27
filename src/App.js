@@ -8,32 +8,11 @@ import WaistUp from './Pages/waistUp';
 import FullBody from './Pages/fullBody';
 import Illustration from './Pages/illustration';
 import ItemList from './Pages/itemList';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-//cors
-const express = require('express');
-const cors = require('cors');
-
-const app = express();
-
-// Enable CORS for all routes
-app.use(cors());
-
-// Or enable CORS for specific origins
-// app.use(cors({ origin: 'https://example.com' }));
-
-app.get('/api/data', (req, res) => {
-    res.json({ message: 'Hello, CORS!' });
-});
-
-app.listen(3000, () => {
-    console.log('Server running on port 3000');
-});
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
           <Routes>
             <Route path="/" element={<Landing />}></Route>
             <Route path="/itemList" element={<ItemList />}></Route>
@@ -44,7 +23,6 @@ function App() {
             <Route path="/fullBody" element={<FullBody />}></Route>
             <Route path="/illustration" element={<Illustration />}></Route>
           </Routes>
-      </BrowserRouter>
     </div>
   );
 }
