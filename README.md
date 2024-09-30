@@ -1,6 +1,6 @@
 # Greetings
 
-Hi! I am baixuehuli, a freelance front-end developer and illustrator. Please visit my artwork commission website via:
+Hi! I am Huli, a freelance front-end developer and illustrator. Please visit my artwork commission website via: https://commission.onrender.com/
 
 # Info
 Please read before making commissions.
