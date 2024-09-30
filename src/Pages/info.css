@@ -44,17 +44,17 @@ html {
 }
 
 #line1 {
-    left: 38%;
+    left: 37%;
     /* Start from the center of the first circle */
 }
 
 #line2 {
-    left: 51.5%;
+    left: 50%;
     /* Start from the center of the first circle */
 }
 
 #line3 {
-    left: 64.5%;
+    left: 63%;
     /* Start from the center of the first circle */
 }
 
@@ -64,11 +64,11 @@ html {
 }
 
 .lineInfo1 {
-    left: 32.5%;
+    left: 31.5%;
 }
 
 .lineInfo2 {
-    left: 59%;
+    left: 58%;
 }
 
 p {
@@ -117,78 +117,78 @@ p {
 }
 
 .authTitle1 {
-    top: 104%;
-    left: 38.5%;
+    top: 102.5%;
+    left: 37%;
 }
 
 .authInfo1-1 {
-    top: 116.5%;
-    left: 36%;
+    top: 115%;
+    left: 34%;
 }
 
 .authInfo1-2 {
-    top: 119.5%;
-    left: 36%;
+    top: 118%;
+    left: 34%;
 }
 
 .authTitle2 {
-    top: 104%;
-    left: 57%;
+    top: 102.5%;
+    left: 56%;
 }
 
 .authInfo2 {
-    top: 114%;
-    left: 55.5%;
+    top: 113%;
+    left: 54%;
 }
 
 .authTitle3 {
-    top: 134%;
-    left: 36.5%;
+    top: 131%;
+    left: 35%;
 }
 
 .authInfo3-1 {
-    top: 143%;
-    left: 35%;
+    top: 140%;
+    left: 33.5%;
 }
 
 .authInfo3-2 {
-    top: 146%;
-    left: 35%;
+    top: 143%;
+    left: 33.5%;
 }
 
 .authInfo3-3 {
-    top: 149%;
-    left: 35%;
+    top: 146%;
+    left: 33.5%;
 }
 
 .authInfo3-4 {
-    top: 152%;
-    left: 35%;
+    top: 149%;
+    left: 33.5%;
 }
 
 .authTitle4 {
-    top: 134%;
-    left: 57%;
+    top: 131%;
+    left: 55.5%;
 }
 
 .authInfo4-1 {
-    top: 144.5%;
-    left: 56%;
+    top: 141%;
+    left: 54%;
 }
 
 .authInfo4-2 {
-    top: 147.5%;
-    left: 56%;
+    top: 144%;
+    left: 54%;
 }
 
 .authInfo4-3 {
-    top: 150.5%;
-    left: 56%;
+    top: 147%;
+    left: 54%;
 }
 
 .authInfo4-4 {
-    top: 153.5%;
-    left: 56%;
+    top: 150%;
+    left: 54%;
 }
 
 /*section3*/
@@ -222,58 +222,58 @@ p {
 }
 
 .drawTitle1 {
-    top: 197%;
-    left: 25.5%;
+    top: 193%;
+    left: 24%;
 }
 
 .drawInfo1-1 {
-    top: 207%;
-    left: 24%;
+    top: 203%;
+    left: 22.5%;
 }
 
 .drawInfo1-2 {
-    top: 210%;
-    left: 24%;
+    top: 206%;
+    left: 22.5%;
 }
 
 .drawInfo1-3 {
-    top: 213%;
-    left: 24%;
+    top: 209%;
+    left: 22.5%;
 }
 
 .drawInfo1-4 {
-    top: 216%;
-    left: 24%;
+    top: 212%;
+    left: 22.5%;
 }
 
 .drawTitle2 {
-    top: 197%;
-    left: 45.5%;
+    top: 193%;
+    left: 44.5%;
 }
 
 .drawInfo2 {
-    top: 212%;
-    left: 45%;
+    top: 208%;
+    left: 43.5%;
 }
 
 .drawTitle3 {
-    top: 197%;
-    left: 66%;
+    top: 193%;
+    left: 65%;
 }
 
 .drawInfo3-1 {
-    top: 208%;
-    left: 67.5%;
+    top: 204%;
+    left: 65.5%;
 }
 
 .drawInfo3-2 {
-    top: 211%;
-    left: 67.5%;
+    top: 207%;
+    left: 65.5%;
 }
 
 .drawInfo3-3 {
-    top: 214%;
-    left: 67.5%;
+    top: 210%;
+    left: 65.5%;
 }
 
 /*section4*/
@@ -298,18 +298,18 @@ p {
 }
 
 .payTitle1 {
-    top: 274%;
-    left: 47%;
+    top: 269%;
+    left: 46%;
 }
 
 .payTitle2 {
-    top: 286.5%;
-    left: 47%;
+    top: 281%;
+    left: 46%;
 }
 
 .payTitle3 {
-    top: 298.5%;
-    left: 47%;
+    top: 293%;
+    left: 46%;
 }
 
 /*Responsive*/
@@ -363,77 +363,77 @@ p {
 
     .authTitle1 {
         top: 151.5%;
-        left: 42%;
+        left: 39%;
     }
 
     .authInfo1-1 {
         top: 163%;
-        left: 35%;
+        left: 30%;
     }
 
     .authInfo1-2 {
         top: 166%;
-        left: 35%;
-    }
-
-    .authTitle2 {
-        top: 180.5%;
-        left: 38%;
-    }
-
-    .authInfo2 {
-        top: 191%;
         left: 30%;
     }
 
+    .authTitle2 {
+        top: 180%;
+        left: 34%;
+    }
+
+    .authInfo2 {
+        top: 189.5%;
+        left: 27%;
+    }
+
     .authTitle3 {
-        top: 209%;
-        left: 36.5%;
+        top: 208%;
+        left: 33%;
     }
 
     .authInfo3-1 {
-        top: 218%;
-        left: 31%;
+        top: 217%;
+        left: 27%;
     }
 
     .authInfo3-2 {
-        top: 221%;
-        left: 31%;
+        top: 220%;
+        left: 27%;
     }
 
     .authInfo3-3 {
-        top: 224%;
-        left: 31%;
+        top: 223%;
+        left: 27%;
     }
 
     .authInfo3-4 {
-        top: 227%;
-        left: 31%;
+        top: 226%;
+        left: 27%;
     }
 
     .authTitle4 {
-        top: 238%;
-        left: 36.5%;
+        top: 236%;
+        left: 33%;
     }
 
     .authInfo4-1 {
-        top: 248%;
-        left: 33%;
+        top: 247%;
+        left: 27%;
     }
 
     .authInfo4-2 {
-        top: 251%;
-        left: 33%;
+        top: 250%;
+        left: 27%;
     }
 
     .authInfo4-3 {
-        top: 254%;
-        left: 33%;
+        top: 253%;
+        left: 27%;
     }
 
     .authInfo4-4 {
-        top: 257%;
-        left: 33%;
+        top: 256%;
+        left: 27%;
     }
 
     /*section3*/
@@ -444,59 +444,59 @@ p {
     }
 
     .drawTitle1 {
-        top: 289%;
-        left: 36%;
-    }
-
-    .drawInfo1-1 {
-        top: 299%;
-        left: 30%;
-    }
-
-    .drawInfo1-2 {
-        top: 302%;
-        left: 30%;
-    }
-
-    .drawInfo1-3 {
-        top: 305%;
-        left: 30%;
-    }
-
-    .drawInfo1-4 {
-        top: 308%;
-        left: 30%;
-    }
-
-    .drawTitle2 {
-        top: 318%;
+        top: 286%;
         left: 33%;
     }
 
+    .drawInfo1-1 {
+        top: 297%;
+        left: 28%;
+    }
+
+    .drawInfo1-2 {
+        top: 300%;
+        left: 28%;
+    }
+
+    .drawInfo1-3 {
+        top: 303%;
+        left: 28%;
+    }
+
+    .drawInfo1-4 {
+        top: 306%;
+        left: 28%;
+    }
+
+    .drawTitle2 {
+        top: 314.5%;
+        left: 29%;
+    }
+
     .drawInfo2 {
-        top: 332%;
-        left: 30%;
+        top: 329%;
+        left: 25%;
     }
 
     .drawTitle3 {
-        top: 347%;
-        left: 30%;
+        top: 342.5%;
+        left: 25%;
         width: auto;
     }
 
     .drawInfo3-1 {
-        top: 358%;
-        left: 32%;
+        top: 354%;
+        left: 29%;
     }
 
     .drawInfo3-2 {
-        top: 361%;
-        left: 32%;
+        top: 357%;
+        left: 29%;
     }
 
     .drawInfo3-3 {
-        top: 364%;
-        left: 32%;
+        top: 360%;
+        left: 29%;
     }
 
     /*section4*/
@@ -514,17 +514,17 @@ p {
     }
 
     .payTitle1 {
-        top: 401.5%;
-        left: 35%;
+        top: 397%;
+        left: 33%;
     }
 
     .payTitle2 {
-        top: 414%;
-        left: 35%;
+        top: 408.5%;
+        left: 33%;
     }
 
     .payTitle3 {
-        top: 426%;
-        left: 35%;
+        top: 420.5%;
+        left: 33%;
     }
 }
