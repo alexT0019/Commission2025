@@ -8,12 +8,20 @@
     object-fit: cover;
 }
 
+#imageListContainer :nth-of-type(1) img {
+    object-position: 0 40%;
+}
+
 #imageListContainer :nth-of-type(2) img {
     object-position: 0 10%;
 }
 
 #imageListContainer :nth-of-type(3) img {
-    object-position: 0 15%;
+    object-position: 0 10%;
+}
+
+#imageListContainer :nth-of-type(4) img {
+    object-position: 90% 0;
 }
 
 .MuiImageListItemBar-root {
