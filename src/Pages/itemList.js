@@ -10,7 +10,7 @@ import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 
-import headshot from "../Images/headshot.jpg";
+import headshot from "../Images/headshot/2.jpg";
 import waistUp from "../Images/waist-up.jpg";
 import fullBody from "../Images/full-body.jpg";
 import illustration from "../Images/illustration.jpg";

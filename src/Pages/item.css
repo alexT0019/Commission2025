@@ -1,10 +1,12 @@
+/*React image gallery*/
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
 #sectionContainer {
     display: flex;
 }
 
 #imageContainer {
-    object-fit: cover;
-    width: 1030px;
+    width: 1103px;
     height: 100vh;
 }
 
