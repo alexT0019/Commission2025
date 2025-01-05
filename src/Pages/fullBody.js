@@ -1,13 +1,34 @@
-import fullBody from "../Images/full-body.jpg";
 import "./item.css";
 import colors from "../Components/color";
+
+// import expand from "../Images/expand.svg";
+import ImageGallery from "react-image-gallery";
+
+//Function to import all files in the folder at once
+function getStaticImages() {
+    const images = [];
+    const importAll = (r) => r.keys().map(r);
+    
+    // Adjust the path to match your folder structure
+    const imageFiles = importAll(require.context('../Images/full-body', false, /\.(png|jpe?g|svg)$/));
+    
+    for (let i = 0; i < imageFiles.length; i++) {
+        images.push({
+            original: imageFiles[i],
+            thumbnail: imageFiles[i],
+            originalHeight: '850px',
+            thumbnailHeight: '52px',
+        });
+    }
+
+    return images;
+}
 
 export default function FullBody() {
     return(
         <div id="sectionContainer">
-            <div>
-                <img id="imageContainer" class="fullBody" src={fullBody} alt="fullBody" />
-                {/* <svg id="expand" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#D3D4D7" d="M32 32C14.3 32 0 46.3 0 64l0 96c0 17.7 14.3 32 32 32s32-14.3 32-32l0-64 64 0c17.7 0 32-14.3 32-32s-14.3-32-32-32L32 32zM64 352c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 96c0 17.7 14.3 32 32 32l96 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-64 0 0-64zM320 32c-17.7 0-32 14.3-32 32s14.3 32 32 32l64 0 0 64c0 17.7 14.3 32 32 32s32-14.3 32-32l0-96c0-17.7-14.3-32-32-32l-96 0zM448 352c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 64-64 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l96 0c17.7 0 32-14.3 32-32l0-96z"/></svg> */}
+            <div id="imageContainer">
+                <ImageGallery items={getStaticImages()} />
             </div>
             <div id="infoContainer">
                 <h1 style={{ color: `${colors.primary}` }}>Full Body</h1>

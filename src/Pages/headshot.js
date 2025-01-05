@@ -16,6 +16,8 @@ function getStaticImages() {
         images.push({
             original: imageFiles[i],
             thumbnail: imageFiles[i],
+            originalHeight: '850px',
+            thumbnailHeight: '52px',
         });
     }
 

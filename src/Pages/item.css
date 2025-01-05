@@ -64,6 +64,16 @@ h1 {
     object-position: 0 25%;
 }
 
+/*Image gallery custom css*/
+.image-gallery-thumbnail {
+    height: 60px !important;
+}
+
+.image-gallery-thumbnail-image {
+    object-fit: cover !important;
+    object-position: 0 50% !important;
+}
+
 /*Responsive*/
 @media only screen and (max-width: 600px) {
     #sectionContainer {
