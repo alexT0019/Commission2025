@@ -12,13 +12,13 @@ export default function SNS() {
                 <a href="https://www.pixiv.net/users/3829434" target="_blank" rel="noreferrer">
                     <img class="SNSIcon" src={pixiv} alt="pixiv" />
                 </a>
-                <a href="https://www.plurk.com/baixuehuli" target="_blank" rel="noreferrer">
+                <a href="https://www.plurk.com/moonblade0019" target="_blank" rel="noreferrer">
                     <img class="SNSIcon" src={plurk} alt="plurk" />
                 </a>
-                <a href="https://twitter.com/baixuehuli" target="_blank" rel="noreferrer">
+                <a href="https://x.com/moonblade0019" target="_blank" rel="noreferrer">
                     <img class="SNSIcon" src={x} alt="x" />
                 </a>
-                <a href="https://cara.app/baixuehuli" target="_blank" rel="noreferrer">
+                <a href="https://cara.app/moonblade0019" target="_blank" rel="noreferrer">
                     <img class="SNSIcon" src={cara} alt="cara" />
                 </a>
             </span>

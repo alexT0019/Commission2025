@@ -23,7 +23,7 @@ export default function Landing() {
                     color: colors.background, 
                     backgroundColor: colors.primary, 
                     animation: 'fadeIn 0.5s ease-in-out 0.5s forwards'}}>
-                        <span style={{ fontSize: "40px" }}>Baixuehuli</span>
+                        <span style={{ fontSize: "40px" }}>Moonblade</span>
                          's commission site
                 </span>
                 <button id="landingText3" style={{ 
@@ -40,13 +40,13 @@ export default function Landing() {
                     <a href="https://www.pixiv.net/users/3829434" target="_blank" rel="noreferrer">
                         <img class="SNSIcon" src={pixiv} alt="pixiv" />
                     </a>
-                    <a href="https://www.plurk.com/baixuehuli" target="_blank" rel="noreferrer">
+                    <a href="https://www.plurk.com/moonblade0019" target="_blank" rel="noreferrer">
                         <img class="SNSIcon" src={plurk} alt="plurk" />
                     </a>
-                    <a href="https://twitter.com/baixuehuli" target="_blank" rel="noreferrer">
+                    <a href="https://x.com/moonblade0019" target="_blank" rel="noreferrer">
                         <img class="SNSIcon" src={x} alt="x" />
                     </a>
-                    <a href="https://cara.app/baixuehuli" target="_blank" rel="noreferrer">
+                    <a href="https://cara.app/moonblade0019" target="_blank" rel="noreferrer">
                         <img class="SNSIcon" src={cara} alt="cara" />
                     </a>
                 </div>
